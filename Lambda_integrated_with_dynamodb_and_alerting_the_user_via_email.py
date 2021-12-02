@@ -1,4 +1,5 @@
 #This code is used to take changes done in dynamodb from dynamodb stream and alerting it to users via email using lambda function.
+#Note: Please check the dynamodb and sns permissions for lambda function before executing the below code.
 
 import json
 import boto3
